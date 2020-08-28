@@ -3,12 +3,12 @@
 
 :strength: 20
 :slug: meaning
-:summary: 意味のコナーセンスは複数のコンポーネントが特定の値の意味に関して一致しなければならないときに発生します。
+:summary: 意味のコナーセンスは複数のコンポーネントが特定の値の意味に関して一致しなければならないときに生じます。
 
 
 .. Connascence of meaning is when multiple components must agree on the meaning of particular values. Consider some code that processes credit card payments. The following function might be used to determine if a given credit card number is valid or not:
 
-意味のコナーセンスは複数のコンポーネントが特定の値の意味に関して一致しなければならないときに発生します。クレジットカード決済を処理するコードを考えてみます。以下の関数はクレジットカード番号が有効かどうかを判定するためのものです。
+意味のコナーセンスは複数のコンポーネントが特定の値の意味に関して一致しなければならないときに生じます。クレジットカード決済を処理するコードを考えてみます。以下の関数はクレジットカード番号が有効かどうかを判定するためのものです。
 
 .. code-block:: python
 

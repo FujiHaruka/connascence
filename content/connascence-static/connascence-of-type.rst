@@ -3,12 +3,12 @@
 
 :strength: 10
 :slug: type
-:summary: 型のコナーセンスは複数のコンポーネントがエンティティの型において一致しなければならないときに発生します。
+:summary: 型のコナーセンスは複数のコンポーネントがエンティティの型において一致しなければならないときに生じます。
 
 
 .. Connascence of type is when multiple components must agree on the type of an entity. In a statically typed language, these issues are often (but not always) caught by the compiler. Consider the following trivial C++ code:
 
-型のコナーセンスは複数のコンポーネントがエンティティの型において一致しなければならないときに発生します。静的型付け言語では、この問題は（常にではないものの）ほとんどの場合、コンパイラが捕捉します。以下の単純な C++ コードを考えてみてください。
+型のコナーセンスは複数のコンポーネントがエンティティの型において一致しなければならないときに生じます。静的型付け言語では、この問題は（常にではないものの）ほとんどの場合、コンパイラが捕捉します。以下の単純な C++ コードを考えてみてください。
 
 .. code-block:: c++
 

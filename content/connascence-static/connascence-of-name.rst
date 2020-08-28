@@ -3,11 +3,11 @@
 
 :strength: 0
 :slug: name
-:summary: 名前のコナーセンスは複数のコンポーネントがエンティティの名前に関して一致しなければならないときに発生します。
+:summary: 名前のコナーセンスは複数のコンポーネントがエンティティの名前に関して一致しなければならないときに生じます。
 
 .. Connascence of name is when multiple components must agree on the name of an entity. Method names are an example of this form of connascence: if the name of a method changes, callers of that method must be changed to use the new name.
 
-名前のコナーセンスは複数のコンポーネントがエンティティの名前に関して一致しなければならないときに発生します。メソッド名がこの種のコナーセンスの例です。メソッド名が変更されると、メソッドを呼び出す側が新しいメソッド名を使うよう変更する必要があります。
+名前のコナーセンスは複数のコンポーネントがエンティティの名前に関して一致しなければならないときに生じます。メソッド名がこの種のコナーセンスの例です。メソッド名が変更されると、メソッドを呼び出す側が新しいメソッド名を使うよう変更する必要があります。
 
 .. Almost any code example involves connascence of name. Consider the following class declaration taken from the Python standard library (method implementation has been omitted for clarity):
 
