@@ -3,10 +3,10 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Thomi Richards'
-SITENAME = 'connascence.io'
+SITENAME = 'コナーセンス(翻訳)'
 PATH = 'content'
-TIMEZONE = 'Pacific/Auckland'
-DEFAULT_LANG = 'en'
+TIMEZONE = 'Asia/Tokyo'
+DEFAULT_LANG = 'ja'
 
 # No need for this fancy ATOM stuff...
 FEED_ALL_ATOM = None

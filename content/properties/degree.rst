@@ -1,6 +1,7 @@
 程度
 ######
 
+:name: 程度
 :slug: degree
 :strength: 20
 :summary: コナーセンスの程度はその影響の大きさと関係があります。
