@@ -3,24 +3,37 @@
 <div class="row">
 	<div class="col-md-12">
 		<div class="jumbotron">
-			<h1>What is Connascence?</h1>
-				<p>Connascence is a software quality metric &amp; a taxonomy for different types of coupling. <br />
-				<small>This site is a handy reference to the various types of connascence, with examples to help you improve your code.</small></p>
+			<!-- <h1>What is Connascence?</h1> -->
+			<h1>コナーセンスとは</h1>
+				<!-- <p>Connascence is a software quality metric &amp; a taxonomy for different types of coupling. <br /> -->
+				<p>コナーセンスはソフトウェアの品質メトリクスであり、結合度の分類方法です<br />
+				<!-- <small>This site is a handy reference to the various types of connascence, with examples to help you improve your code.</small></p> -->
+				<small>このサイトではさまざまな種類のコナーセンスをコードの改善に役立つ実例付きで紹介しています。</small></p>
 		</div>
-		<h3>Subject to Change</h3>
-		<p><em>All code</em> is subject to change. As the real world changes, so too must our code. Connascence gives us an insight into the long-term impact our code will have on flexibility, as we write it. Maintaining a flexible codebase is essential for maintaining long-term development velocity.</p>
+		<!-- <h3>Subject to Change</h3> -->
+		<h3>変更の可能性</h3>
+		<!-- <p><em>All code</em> is subject to change. As the real world changes, so too must our code. Connascence gives us an insight into the long-term impact our code will have on flexibility, as we write it. Maintaining a flexible codebase is essential for maintaining long-term development velocity.</p> -->
+		<p><em>あらゆるコードに</em>変更の可能性があります。現実世界が変化するのに合わせて、私たちのコードも必ず変更されます。コナーセンスは、長期的な観点から柔軟性のあるコードを書くにはどうすればよいかについて洞察を提供してくれます。コードベースの柔軟性を維持することは開発速度を長期的に維持するために不可欠です。</p>
 
-		<h3>A Flexible Metric</h3>
-		<p>Connascence is a metric, and like all metrics is an imperfect measure. However, connascence takes a more holistic approach, where each instance of connascence in a codebase must be considered on three separate axes:</p>
+		<!-- <h3>A Flexible Metric</h3> -->
+		<h3>柔軟なメトリクス</h3>
+		<!-- <p>Connascence is a metric, and like all metrics is an imperfect measure. However, connascence takes a more holistic approach, where each instance of connascence in a codebase must be considered on three separate axes:</p> -->
+		<p>コナーセンスはメトリクスであり、他のメトリクスと同様に不完全な測定値です。しかし、コナーセンスはより包括的なアプローチを取っています。コードベースのコナーセンスは以下の３つの独立した軸で判断する必要があります。</p>
 		<ol>
-			<li><a href="/strength.html">Strength</a>. Stronger connascences are harder to discover, or harder to refactor.</li>
-			<li><a href="/degree.html">Degree</a>. An entity that is connascent with thousands of other entities is likely to be a larger issue than one that is connascent with only a few.</li>
-			<li><a href="/locality.html">Locality</a>. Connascent elements that are close together in a codebase are better than ones that are far apart.</li>
+			<!-- <li><a href="/strength.html">Strength</a>. Stronger connascences are harder to discover, or harder to refactor.</li> -->
+			<li><a href="/strength.html">強度</a>。コナーセンスが強いと発見が難しい、またはリファクタリングが難しくなります。</li>
+			<!-- <li><a href="/degree.html">Degree</a>. An entity that is connascent with thousands of other entities is likely to be a larger issue than one that is connascent with only a few.</li> -->
+			<li><a href="/degree.html">程度</a>。１つのエンティティが他の１０００ものエンティティとコナーセントである状態は、数個のエンティティとコナーセントである状態よりも問題が大きいと言えます。</li>
+			<!-- <li><a href="/locality.html">Locality</a>. Connascent elements that are close together in a codebase are better than ones that are far apart.</li> -->
+			<li><a href="/locality.html">距離</a>。コナーセントな要素がコードベース内で互いに近い場所にあるのは離れた場所にあるよりも良いです。</li>
 		</ol>
-		<p>The three properties of Strength, Degree, and Locality give the programmer all the tools they need in order to make informed decisions about when they will permit certain types of coupling, and when the code ought to be refactored.</p>
+		<!-- <p>The three properties of Strength, Degree, and Locality give the programmer all the tools they need in order to make informed decisions about when they will permit certain types of coupling, and when the code ought to be refactored.</p> -->
+		<p>強度、程度、距離という３つの尺度は、プログラマーがどんなときにある種の結合を許容し、どんなときにコードをリファクタリングすべきかを知識に基づいて決めるために必要な道具立てを与えてくれます。</p>
 
-		<h3>A Vocabulary for Coupling</h3>
-		<p>Arguably one of the most important benefits of connascence is that it gives developers a vocabulary to talk about different types of coupling. Connascence codifies what many experienced engineers have learned by trial and error: Having a common set of nouns to refer to different types of coupling allows us to share that experience more easily.</p>
+		<!-- <h3>A Vocabulary for Coupling</h3> -->
+		<h3>結合度の語彙</h3>
+		<!-- <p>Arguably one of the most important benefits of connascence is that it gives developers a vocabulary to talk about different types of coupling. Connascence codifies what many experienced engineers have learned by trial and error: Having a common set of nouns to refer to different types of coupling allows us to share that experience more easily.</p> -->
+		<p>コナーセンスの最も重要な利点は開発者がさまざまな結合度の種類について語る語彙を得られるということです。コナーセンスは多くの開発者が試行錯誤によって経験から学んできたことを明文化したものです。そうした経験をより簡単に共有できるようにするために、コナーセンスが結合度の種類を表す共通の語彙となります。</p>
 	</div>
 </div>
 {% endblock content %}
